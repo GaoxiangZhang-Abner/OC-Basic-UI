@@ -1,0 +1,14 @@
+//
+//  AppDelegate.h
+//  OC-UI-GuessPicture
+//
+//  Created by Gaoxiang Zhang on 2020/10/30.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+
+@end
+
