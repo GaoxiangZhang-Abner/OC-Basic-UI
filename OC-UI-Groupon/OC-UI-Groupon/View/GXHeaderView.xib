@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="f8Y-a9-yQJ" customClass="GXHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="185"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C3O-48-63k">
+                    <rect key="frame" x="10" y="10" width="380" height="165"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="34k-AM-0op"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="C3O-48-63k" secondAttribute="bottom" constant="10" id="EpX-Rj-ayQ"/>
+                <constraint firstAttribute="trailing" secondItem="C3O-48-63k" secondAttribute="trailing" constant="10" id="NeX-Aa-OM3"/>
+                <constraint firstItem="C3O-48-63k" firstAttribute="leading" secondItem="f8Y-a9-yQJ" secondAttribute="leading" constant="10" id="a7l-07-dS6"/>
+                <constraint firstItem="C3O-48-63k" firstAttribute="top" secondItem="f8Y-a9-yQJ" secondAttribute="top" constant="10" id="emL-3i-wQC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="scoreView" destination="C3O-48-63k" id="Zle-o5-O4H"/>
+            </connections>
+            <point key="canvasLocation" x="144.92753623188406" y="323.77232142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
